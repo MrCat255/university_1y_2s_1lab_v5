@@ -1,0 +1,10 @@
+^C:\USERS\SIDEB\SOURCE\REPOS\UNIVERSITY_1Y_2S_1LAB_V5\NEWRES1\CMAKEFILES\72D59B9C1BE29DCFF1578B8EE999D791\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/sideb/source/repos/university_1y_2s_1lab_v5/CMake1 -BC:/Users/sideb/source/repos/university_1y_2s_1lab_v5/NewRes1 --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/sideb/source/repos/university_1y_2s_1lab_v5/NewRes1/lab2_3v.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

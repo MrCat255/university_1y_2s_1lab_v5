@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\sideb\source\repos\university_1y_2s_1lab_v5\CMake1\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\sideb\source\repos\university_1y_2s_1lab_v5\CMake1\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{B6ED80EC-471E-3761-92B4-77C441CF4C65}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
