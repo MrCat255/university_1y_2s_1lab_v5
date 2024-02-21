@@ -1,0 +1,6 @@
+*
+*.jpg
+
+!main.cpp
+!CMakeLists.txt
+!.gitignore
