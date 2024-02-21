@@ -1,0 +1,10 @@
+^C:\USERS\SIDEB\SOURCE\REPOS\UNIVERSITY_1Y_2S_1LAB_V5\CMAKE1\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/sideb/source/repos/university_1y_2s_1lab_v5/CMake1 -BC:/Users/sideb/source/repos/university_1y_2s_1lab_v5/NewRes1 --check-stamp-file C:/Users/sideb/source/repos/university_1y_2s_1lab_v5/NewRes1/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
